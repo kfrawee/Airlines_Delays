@@ -1,5 +1,8 @@
 # Airlines Delay [![Awesome](https://awesome.re/badge.svg)](https://github.com/kfrawee/SalesAnalysis) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ### Airline on-time statistics and delay causes
+#### by Muhammad Elkfrawy - <i> Dec 2020 </i>
+
+
 
 ## Introduction
 Data visualization is an important skill that is used in many parts of the data analysis process. 
@@ -18,7 +21,7 @@ The primary method of conveying your findings will be through transforming your 
 
 
 
-## Dataset
+## Dataset :bookmark_tabs:
 
 > The U.S. Department of Transportation's (DOT) [Bureau of Transportation Statistics](https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp) (BTS) tracks the on-time performance of domestic flights operated by large air carriers. Summary information on the number of on-time, delayed, canceled, and diverted flights appear in DOT's monthly [Air Travel Consumer Report](http://www.dot.gov/individuals/air-consumer/air-travel-consumer-reports), published about 30 days after the month's end, as well as in summary tables posted on this website. BTS began collecting details on the causes of flight delays in June 2003. Summary statistics and raw data are made available to the public at the time the Air Travel Consumer Report is released.
 
@@ -29,7 +32,7 @@ There are arround 2.4 million records in the dataset with 29 features [listed he
 Before we started the analysis, We checked the numerical columns for missing values and imputed them using the linear interpolate function.
 
 
-## Summary of Findings
+## Summary of Findings :notebook_with_decorative_cover:
 
 I was intersted in finding out about:
 - What are the factors effecting the flights cancellation?
@@ -46,7 +49,7 @@ Northwest Airlines Inc. followed by American Airlines Inc. has the most delayed 
 - The best tome to book your flight is in early hours of the morning as they have the least delays over the hours of the day.
 
 
-## Key Insights for Presentation
+## Key Insights for Presentation :high_brightness:
 For the presentation, I started with univariate distribution plots of numerical and categorical variables, using histograms and box plots for numericals variables, pie charts and bar charts for categorical variables.
 
 Afterwards, Bivariate exploration by investigating the relationships between each pairs of variables with heatmap, scatter plots and clustered bar charts.
